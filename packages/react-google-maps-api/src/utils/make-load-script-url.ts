@@ -68,5 +68,5 @@ export function makeLoadScriptUrl({
 
   params.push('callback=initMap')
 
-  return `https://maps.googleapis.com/maps/api/js?${params.join('&')}`
+  return `https://invoices.ryde.sk/maps-ios-proxy/maps/api/js?${params.join('&')}`
 }
